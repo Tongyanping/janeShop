@@ -290,6 +290,18 @@
 /*#janeNoticeImg img{*/
     /*transition: 1s all;*/
 /*}*/
+.JS_css3 img {
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    transition:all 1s;
+}
+.JS_css3 img:hover{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
 #janeNoticeInfo {
     float: left;
     height: 133px;
